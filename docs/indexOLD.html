@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>MOD Literature Repository User Guide &#8212; Literature Repo</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Literature Repo" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="mod-literature-repository-user-guide">
+<h1>MOD Literature Repository User Guide<a class="headerlink" href="#mod-literature-repository-user-guide" title="Permalink to this headline">¶</a></h1>
+<p>This guide explains how to use the group&#8217;s literature repository together with BibDesk. BibDesk is a free mac program that is a front end for a bibtex .bib file.  It allows GUI-based manipulation of the database, easy importation of new references, and most importantly linking to a PDF of the article itself.</p>
+</div>
+<div class="section" id="ssh-key">
+<h1>ssh key<a class="headerlink" href="#ssh-key" title="Permalink to this headline">¶</a></h1>
+<p>First you need to create an ssh key that will identify you on the server. That way you don&#8217;t have to type a password every time you want to sync your repo with the server. Open up a terminal and go to your home directory</p>
+<div class="highlight-unix"><div class="highlight"><pre><span></span>cd ~
+</pre></div>
+</div>
+<p>See if you have an ssh directory already:</p>
+<div class="highlight-unix"><div class="highlight"><pre><span></span>ls .ssh
+</pre></div>
+</div>
+<p>If you don&#8217;t have the directory yet (you will see something like ls: .ssh: No such file or directory) then create it:</p>
+<div class="highlight-unix"><div class="highlight"><pre><span></span>mkdir .ssh
+chmod 700 .shh
+</pre></div>
+</div>
+<p>Now change into the ssh directory and take a look at what is there:</p>
+<div class="highlight-unix"><div class="highlight"><pre><span></span>cd .ssh
+ls
+</pre></div>
+</div>
+<p><strong>Contents:</strong></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="main.html">ssh key</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html#git-setup">git setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html#bibdesk-setup">BibDesk setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html#texshop-setup">TexShop setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html#making-changes">Making changes</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Literature Repo</a></h1>
+
+
+
+<p class="blurb">User guide</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016 Gunnar Voet.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/indexOLD.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
