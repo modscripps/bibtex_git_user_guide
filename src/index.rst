@@ -10,7 +10,7 @@ This guide explains how to use the group's literature repository together with B
 
 
 
-**Contents:**
+.. **Contents:**
 
 .. toctree::
    :maxdepth: 1
