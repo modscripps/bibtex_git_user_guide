@@ -55,7 +55,12 @@ dirhtml:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/dirhtml."
 
 singlehtml:
+	rm -rf $(BUILDDIR)/singlehtml/
+	rm -rf $(BUILDDIR)/_images/
+	rm -rf $(BUILDDIR)/_static/
 	$(SPHINXBUILD) -b singlehtml $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
+	mv $(BUILDDIR)/singlehtml/* $(BUILDDIR)/
+	rm -rf $(BUILDDIR)/singlehtml/
 	@echo
 	@echo "Build finished. The HTML page is in $(BUILDDIR)/singlehtml."
 
