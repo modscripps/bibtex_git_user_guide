@@ -5,7 +5,7 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
-BUILDDIR      = _build
+# BUILDDIR      = _build
 
 BUILDDIR      = ../docs
 
@@ -58,6 +58,7 @@ singlehtml:
 	rm -rf $(BUILDDIR)/singlehtml/
 	rm -rf $(BUILDDIR)/_images/
 	rm -rf $(BUILDDIR)/_static/
+	mkdir $(BUILDDIR)/singlehtml
 	$(SPHINXBUILD) -b singlehtml $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
 	mv $(BUILDDIR)/singlehtml/* $(BUILDDIR)/
 	rm -rf $(BUILDDIR)/singlehtml/

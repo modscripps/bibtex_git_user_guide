@@ -24,6 +24,8 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="None" href="index.html#document-index" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -102,7 +104,7 @@ git config --global user.email email@example.com
 <div class="section" id="bibdesk-setup">
 <h2>BibDesk setup<a class="headerlink" href="#bibdesk-setup" title="Permalink to this headline">¶</a></h2>
 <p>Before opening the cloned repository in BibDesk, tell the application to use relative paths only. This makes it easier to resolve future conflicts in the database. Copy the following command and run it in your shell:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>write edu.ucsd.cs.mmccrack.bibdesk  BDSKSaveLinkedFilesAsRelativePathOnly -bool <span class="nb">true</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>defaults write edu.ucsd.cs.mmccrack.bibdesk  BDSKSaveLinkedFilesAsRelativePathOnly -bool <span class="nb">true</span>
 </pre></div>
 </div>
 <p>Now you are ready to open the main.bib file in BibDesk.  You&#8217;ll be able to browse all the articles in the main.bib database (thousands of articles).  Many are linked to a PDF, which you should just be able to click on. To use the database most effectively and easily, make three changes in the BibDesk preferences:</p>
@@ -208,7 +210,7 @@ git push
       &copy;2016 Gunnar Voet.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
     </div>

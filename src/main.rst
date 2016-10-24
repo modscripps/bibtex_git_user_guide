@@ -80,7 +80,7 @@ BibDesk setup
 Before opening the cloned repository in BibDesk, tell the application to use relative paths only. This makes it easier to resolve future conflicts in the database. Copy the following command and run it in your shell:
 ::
 
-  write edu.ucsd.cs.mmccrack.bibdesk  BDSKSaveLinkedFilesAsRelativePathOnly -bool true
+  defaults write edu.ucsd.cs.mmccrack.bibdesk  BDSKSaveLinkedFilesAsRelativePathOnly -bool true
 
 Now you are ready to open the main.bib file in BibDesk.  You'll be able to browse all the articles in the main.bib database (thousands of articles).  Many are linked to a PDF, which you should just be able to click on. To use the database most effectively and easily, make three changes in the BibDesk preferences:
 
