@@ -156,6 +156,13 @@ Tips & Tricks
 
 - You can add a publication with just a doi in your clipboard. Go to *Publication* - *New Publications from Clipboard* and the magic happens. Just make sure to adjust the keys to our common structure.
 
+- If the repository grows very large on your harddrive you can reduce its size by running:
+
+.. code-block:: bash
+
+  git gc
+
+
 .. figure:: figs/git.png
      :width: 300px
      :alt: git it?
