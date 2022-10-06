@@ -93,9 +93,14 @@ Now you are ready to open the main.bib file in BibDesk.  You'll be able to brows
      :alt: bibdesk autofile
      :align: center
 
-3. Unfortunately, BibDesk can't generate the cite keys the way we want them, so under 'Cite Key Format' leave 'Autogenerate' unchecked.
+3. Under 'Cite Key Format' check 'Autogenerate the cite key when enough fields are supplied'. Set 'Preset Format' to Custom and set 'Format String' to :code:`%a[][etal1]20%y`.
 
-Now, you can easily import new articles by simply dragging the PDF onto the reference in BibDesk. BibDesk will automatically file the paper. The format string tells it to store the articles in a folder by the author's last name, and to name them as (e.g.) Zhang2012a.pdf.  If you add new references, please follow the convention we use for the cite key; e.g. zhangetal12, alfordgregg01a, etc.
+  .. figure:: figs/bibdesk_autocitekey.png
+     :width: 90%
+     :alt: bibdesk auto cite key
+     :align: center
+
+Now, you can easily import new articles by simply dragging the PDF onto the reference in BibDesk. BibDesk will automatically file the paper. The format string tells it to store the articles in a folder by the author's last name, and to name them as (e.g.) Zhang2012a.pdf.  If you add new references, please follow the convention we use for the cite key; e.g. zhangetal12, alfordgregg01a, etc. With the settings in 'Cite Key Format' you can also generate the cite key pressing cmd-k.
 
 
 

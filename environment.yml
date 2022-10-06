@@ -1,0 +1,13 @@
+name: bib-repo-doc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - sphinx
+  - sphinxcontrib-bibtex
+  - myst-parser
+  - nbsphinx
+  - pip:
+    - sphinx-autobuild
+    - sphinx-math-dollar
