@@ -147,6 +147,10 @@ Note that the alias :code:`git ca` is just a short form of the more general git 
 Tips & Tricks
 *************
 
+- For some journals, simply dragging a pdf into BibDesk will autogenerate a new entry. This works at least for JPO.
+
+- You can add a publication with just a doi in your clipboard. Go to *Publication* - *New Publications from Clipboard* and the magic happens. Just make sure to adjust the keys to our common structure.
+
 - On google scholar, if you go to Scholar preferences/Bibliography manager, you can select "Show links to import citations into Bibtex."  Then you can just copy the citation info and paste it from the clipboard into BibDesk.
 
 - To look up journal abbreviations (it's nice to have them consistent!) go to `http://woodward.library.ubc.ca/research-help/journal-abbreviations/ <http://woodward.library.ubc.ca/research-help/journal-abbreviations/>`_
@@ -158,8 +162,6 @@ Tips & Tricks
 .. code-block:: bash
 
   ln -s /your/path/to/your/main.bib ~/Library/texmf/bibtex/bib/main.bib
-
-- You can add a publication with just a doi in your clipboard. Go to *Publication* - *New Publications from Clipboard* and the magic happens. Just make sure to adjust the keys to our common structure.
 
 - If the repository grows very large on your harddrive you can reduce its size by running:
 

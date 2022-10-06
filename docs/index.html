@@ -109,7 +109,7 @@ git config --global user.email email@example.com
 </figure>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li><p>Under ‘Cite Key Format’ check ‘Autogenerate the cite key when enough fields are supplied’. Set ‘Preset Format’ to Custom and set ‘Format String’ to <code class="code docutils literal notranslate"><span class="pre">%a[][etal1]20%y</span></code></p></li>
+<li><p>Under ‘Cite Key Format’ check ‘Autogenerate the cite key when enough fields are supplied’. Set ‘Preset Format’ to Custom and set ‘Format String’ to <code class="code docutils literal notranslate"><span class="pre">%a[][etal1]20%y</span></code>.</p></li>
 </ol>
 <blockquote>
 <div><figure class="align-center">
@@ -149,6 +149,8 @@ git push
 <section id="tips-tricks">
 <h2>Tips &amp; Tricks<a class="headerlink" href="#tips-tricks" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
+<li><p>For some journals, simply dragging a pdf into BibDesk will autogenerate a new entry. This works at least for JPO.</p></li>
+<li><p>You can add a publication with just a doi in your clipboard. Go to <em>Publication</em> - <em>New Publications from Clipboard</em> and the magic happens. Just make sure to adjust the keys to our common structure.</p></li>
 <li><p>On google scholar, if you go to Scholar preferences/Bibliography manager, you can select “Show links to import citations into Bibtex.”  Then you can just copy the citation info and paste it from the clipboard into BibDesk.</p></li>
 <li><p>To look up journal abbreviations (it’s nice to have them consistent!) go to <a class="reference external" href="http://woodward.library.ubc.ca/research-help/journal-abbreviations/">http://woodward.library.ubc.ca/research-help/journal-abbreviations/</a></p></li>
 </ul>
@@ -159,7 +161,6 @@ git push
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>You can add a publication with just a doi in your clipboard. Go to <em>Publication</em> - <em>New Publications from Clipboard</em> and the magic happens. Just make sure to adjust the keys to our common structure.</p></li>
 <li><p>If the repository grows very large on your harddrive you can reduce its size by running:</p></li>
 </ul>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git gc
